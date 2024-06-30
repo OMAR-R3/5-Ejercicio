@@ -2,7 +2,7 @@ const ruta = require("express").Router();
 const UsuarioClase=require("../clases/UsuarioClase");
 const UsuarioBD = require("../bd/UsuarioBD");
 
-ruta.get("/",(req,res)=>{
+ruta.get("https://omar-r3.github.io/5-Ejercicio/",(req,res)=>{
     res.render("inicio");
 });
 
