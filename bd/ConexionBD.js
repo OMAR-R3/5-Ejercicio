@@ -6,10 +6,10 @@ class ConectarBD{
     async conectarMySql(){
         try {
             this.conexion=await this.mysql.createConnection({
-                host:'b6yre0ppeaflwzhxsk5g-mysql.services.clever-cloud.com',
-                user:'upqa08th9jfc3xvm',
-                password:'f3a0jwORd0ZtH5lcqsCv',
-                database:'b6yre0ppeaflwzhxsk5g',
+                host:'127.0.0.1',
+                user:'root',
+                password:'root',
+                database:'tiendaut',
                 port:'3306'
             });
             console.log("conexion creada a mysql bienvenido a telcel");
